@@ -1,0 +1,34 @@
+<html>
+<head>
+<style>
+   .simple-pagination {
+      display: flex;
+      list-style: none;
+      padding: 0;
+   }
+   .simple-pagination a {
+      text-decoration: none;
+      padding: 8px 12px;
+      color: #333;
+   }
+   .simple-pagination a.active-link {
+      background-color: violet;
+      color: white;
+   }
+   .simple-pagination a:hover:not(.active-link) {
+      background-color: pink;
+   }
+</style>
+</head>
+<body>
+   <div class="simple-pagination">
+      <a href="#">«</a>
+      <a href="#" class="active-link">A</a>
+      <a href="#">B</a>
+      <a href="#">C</a>
+      <a href="#">D</a>
+      <a href="#">E</a>
+      <a href="#">»</a>
+   </div>
+</body>
+</html>
